@@ -2,6 +2,14 @@ plugins {
     id("com.android.library")
 }
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    classpath 'com.android.tools.build:gradle:2.3.0'   
+}
+
 android {
     buildTypes {
         release {
