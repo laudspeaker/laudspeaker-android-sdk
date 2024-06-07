@@ -23,3 +23,6 @@ jobs:
       uses: gradle/actions/setup-gradle@v3
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Publish
+      run: ./gradlew publishAndReleaseToMavenCentral --no-configuration-cache
+      
