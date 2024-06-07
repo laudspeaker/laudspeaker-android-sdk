@@ -21,6 +21,8 @@ jobs:
         java-version: 21
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
+    - name: tasks
+      run: ./gradlew tasks --all
     - name: Build with Gradle
       run: ./gradlew build
     - name: Publish
