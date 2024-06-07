@@ -12,9 +12,3 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0-Beta5")
     }
 }
-
-allprojects {
-    repositories {
-        mavenCentral()
-    }
-}
